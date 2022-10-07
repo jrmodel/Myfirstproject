@@ -2,14 +2,23 @@
 
 int add(int a, int b)
 {
-    return a+b;
+    return a + b;
 }
 
-int multiplay(int a, int b)
+int multiply(int a, int b)
 {
     return a *b;
     
 }
+
+
+int test()
+{
+   assert(multiply(2,2)==4)
+
+}
+
+
 int main()
 {
    
